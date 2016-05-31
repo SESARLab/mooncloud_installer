@@ -22,7 +22,7 @@ yum -y install redis
 systemctl enable redis
 systemctl start redis
 echo -e "\n\n******** Downloading test agent from git\n\n"
-git checkout https://github.com/SESARLab/mooncloud_ta.git
+git clone https://github.com/SESARLab/mooncloud_ta.git
 echo -e "\n\n******** Installing python dependecies\n\n" 
 pip install --upgrade pip
 pip2 install -r mooncloud_ta/requirements.txt

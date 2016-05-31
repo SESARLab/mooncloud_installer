@@ -1,0 +1,11 @@
+<collector probe_driver="EmptyProbeDelay" id="testsqlmap" cmid="testsqlmap">
+   <TestCases>
+      <TestCase>
+         <ID>1</ID>
+         <TestInstance Operation="sqlmap">
+            <Input>
+            </Input>
+         </TestInstance>
+      </TestCase>
+   </TestCases>
+</collector>
