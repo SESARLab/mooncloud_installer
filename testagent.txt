@@ -1,0 +1,9 @@
+[Unit]
+Description=Testagent
+
+[Service]
+Type=simple
+PIDFile=/var/run/testagent.pid
+ExecStart=/bin/testagent
+
+[Install]
